@@ -1,0 +1,75 @@
+body {
+    background-image: url(../media/ubackground.png);
+    background-color: #000;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    color: #fff;
+    background-image: none;
+    background-color: #fff;
+}
+.dark-background {
+    background-image: url(../media/ubackground.png);
+    background-color: #000;
+    color: #fff;
+}
+.light-background {
+    background-color: #fff;
+    background-image: url(../media/ubackground_light.png);
+    color: #000;
+}
+.main-content {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.example-block {
+    width: 200px;
+    height: 26px;
+    background-color: silver;
+    float: left;
+    margin: 75px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+}
+.example-block:hover {
+    background-color: #ccc;
+}
+hr {
+    margin: 50px auto !important;
+    clear: both;
+}
+br {
+    clear: both;
+}
+.main-menu {
+    position: fixed;
+    left: 50px;
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 8px;
+    padding: 18px 8px;
+    font-weight: bold;
+    width: 200px;
+    z-index: 99999;
+    background-color: rgba(214, 207, 0, .6);
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+}
+.config-background * {
+    display: block;
+    float: left;
+}
+
+.row {
+    width: 970px;
+    margin: 0 auto;
+}

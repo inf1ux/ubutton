@@ -1,0 +1,207 @@
+.ubutton:not(.uwrap) {
+    width: 100%;
+}
+.ubutton {
+    display: inline-block;
+    outline: none;
+    border:none;
+    background-color: #fff;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 1.0em;
+    cursor: pointer;
+    margin-bottom: 1px;
+    font-weight: bold;
+    background: #121413;
+    background: linear-gradient(to bottom,  #121413 0%,#1c1e1e 50%,#0a0e0a 51%,#0a0809 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121413', endColorstr='#0a0809',GradientType=0 );
+}
+.ubutton.uwrap {
+    width: auto;
+}
+.ubutton.usmall {
+    width: 86px;
+}
+.ubutton.unormal {
+    width: 120px;
+}
+.ubutton.ularge {
+    width: 160px;
+}
+.ubutton:hover {
+    transition: background 1.0s ease;
+    background: #121413;
+    background: linear-gradient(to bottom,  #222423 0%,#2c2e2e 50%,#1a1e1a 51%,#1a1819 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222423', endColorstr='#2c2e2e',GradientType=0 );
+    color: #f5f5f5;
+}
+.ubutton:active {
+    text-shadow: 0px 0px #fff;
+    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,0.5);
+    box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+.ubutton.urounded {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+.ubutton.ucircle {
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    padding: 10px 8px;
+    margin: 6px;
+}
+.ubutton.ucircle.usmall {
+    width: 86px;
+    height: 86px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+}
+a.ubutton.ucircle.usmall {
+    padding-top: 35px;
+}
+.ubutton.ucircle.unormal {
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+}
+a.ubutton.ucircle.unormal {
+    padding-top: 52px;
+}
+.ubutton.ucircle.ularge {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+}
+a.ubutton.ucircle.ularge {
+    padding-top: 72px;
+}
+.ubutton.uellipse {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.ubutton.uleaf {
+    -webkit-border-radius: 0 120px 0 120px;
+    -moz-border-radius: 0 120px 0 120px;
+    border-radius: 0 120px 0 120px;
+}
+.ubutton.ubullet,
+.ubutton.ubullet-right {
+    -webkit-border-radius: 0px 21px 21px 0px;
+    -moz-border-radius: 0px 21px 21px 0px;
+    border-radius: 0px 21px 21px 0px;
+}
+.ubutton.ubullet-left {
+    -webkit-border-radius: 21px 0px 0px 21px;
+    -moz-border-radius: 21px 0px 0px 21px;
+    border-radius: 21px 0px 0px 21px;
+}
+.ubutton.ured {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#ef0000 0%,#ef0000 50%,#c60000 51%,#c60000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#c60000',GradientType=0 )
+}
+.ubutton.ured:hover {
+    background: linear-gradient(to bottom, #aebcbf 0%,#aebcbf 0%,#ff0c0c 0%,#ff0c0c 50%,#d60000 51%,#d60000 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#d60000',GradientType=0 ); 
+}
+.ubutton.ublue {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#004fd5 0%,#004fd5 50%,#0034d2 51%,#0034d2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0034d2',GradientType=0 );
+}
+.ubutton.ublue:hover {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#005fe5 0%,#005fe5 50%,#0044e2 51%,#0044e2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0044e2',GradientType=0 );
+}
+.ubutton.ugreen {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#00cd00 0%,#00cd00 50%,#09b100 51%,#00cd00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#00cd00',GradientType=0 );
+}
+.ubutton.ugreen:hover {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#0bdd00 0%,#0bdd00 50%,#19c100 51%,#19c100 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#19c100',GradientType=0 );
+}
+.ubutton.upurple {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#bb00c6 0%,#bb00c6 50%,#a600be 51%,#a600be 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#a600be',GradientType=0 );
+}
+.ubutton.upurple:hover {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#cb00d6 0%,#cb00d6 50%,#b600ce 51%,#b600ce 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#b600ce',GradientType=0 );
+}
+.ubutton.uorange {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#e48e07 0%,#e48e07 50%,#da7100 51%,#e48e07 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#e48e07',GradientType=0 );
+}
+.ubutton.uorange:hover {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#f48e00 0%,#f48e00 50%,#ea8100 51%,#ea8100 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#ea8100',GradientType=0 );
+}
+.ubutton.uyellow {
+    background: linear-gradient(to bottom,  #fcf04e 50%,#ffe100 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf04e', endColorstr='#ffe100',GradientType=0 );
+    color: #333;
+}
+.ubutton.uyellow:hover {
+    background: linear-gradient(to bottom,  #ffff5e 50%,#fff110 51%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff5e', endColorstr='#fff110',GradientType=0 );
+}
+.ubutton.ucyan {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#aebcbf 0%,#09b9e5 0%,#09b9e5 50%,#00a5b5 51%,#00a5b5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#00a5b5',GradientType=0 );
+}
+.ubutton.ucyan:hover {
+    background: linear-gradient(to bottom,  #aebcbf 0%,#10c9e5 0%,#10c9e5 50%,#00b5c5 51%,#00b5c5 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#00b5c5',GradientType=0 );
+}.ubutton.upink {
+    background: linear-gradient(to bottom,  #e2166b 0%,#e2166b 50%,#d2065b 51%,#e2166b 100%,#d2065b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2166b', endColorstr='#d2065b',GradientType=0 );
+}.ubutton.upink:hover {
+    background: linear-gradient(to bottom,  #f2267b 0%,#f2267b 50%,#e2166b 51%,#e2166b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2267b', endColorstr='#e2166b',GradientType=0 );
+}
+.ubutton.ugray,
+.ubutton.ugrey{
+    background: linear-gradient(to bottom,  #b2b2b2 0%,#b2b2b2 51%,#b2b2b2 51%,#999999 52%,#999999 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b2b2', endColorstr='#999999',GradientType=0 );
+}
+.ubutton.ugray:hover,
+.ubutton.ugrey:hover {
+    background: linear-gradient(to bottom,  #a2a2a2 0%,#b2b2b2 51%,#a2a2a2 51%,#888888 52%,#888888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2a2a2', endColorstr='#888888',GradientType=0 );
+}
+.ubutton.uwhite {
+    background: linear-gradient(to bottom,  #ededed 0%,#ededed 50%,#e5e5e5 51%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#e5e5e5',GradientType=0 );
+    color: #333;
+}
+.ubutton.uwhite:hover {
+    background: linear-gradient(to bottom,  #f5f5f5 0%,#f5f5f5 50%,#ececec 51%,#ececec 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ececec',GradientType=0 );
+}
+.ubutton.uglass {
+    background: linear-gradient(to bottom,  rgba(213,213,213,0.8) 0%,rgba(213,213,213,0.8) 50%,rgba(204,204,204,0.8) 51%,rgba(204,204,204,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99d5d5d5', endColorstr='#99cccccc',GradientType=0 );
+    color: #333;
+}
+.ubutton.uglass:hover {
+    background: linear-gradient(to bottom,  rgba(245,245,245,0.75) 0%,rgba(245,245,245,0.75) 50%,rgba(236,236,236,0.75) 51%,rgba(236,236,236,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bff5f5f5', endColorstr='#bfececec',GradientType=0 );
+}
